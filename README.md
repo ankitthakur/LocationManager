@@ -18,6 +18,13 @@ let minimumTriggerDuration:Double = 5*60 // in seconds : 5 minutes
 
 ```
 
+** Storing of Locations and Logs in DB **
+For safety usage, I have used encrypted Sqlite 
+ankitthakur/encrypted-core-data forked from project-imas/encrypted-core-data
+https://github.com/ankitthakur/encrypted-core-data/
+
+So for background trigger, if we will not be able to view the logs on console, then also don't worry, just open the DB and read the debug logs.
+
 
 Pre-requisites
 
