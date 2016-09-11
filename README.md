@@ -23,7 +23,7 @@ let minimumTriggerDuration:Double = 5*60 // in seconds : 5 minutes
 For safety usage, I have used encrypted Sqlite 
 https://github.com/ankitthakur/encrypted-core-data/
 
-So for background trigger, if we will not be able to view the logs on console, then also don't worry, just open the DB and read the debug logs.
+So for background trigger, if we will not be able to view the logs on console, then also don't worry, just open the DB and read the debug logs. For opening db, I have currently set password as `sample`. If you want to change the password for usage, then you can change it in `EncryptedDB.swift`
 
 
 Pre-requisites
