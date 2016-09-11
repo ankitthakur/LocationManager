@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>EncryptedCoreData.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-LocationManager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-LocationManagerTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-LocationManagerUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SQLCipher.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1422D6AAE4361494F5E90D8DCF410D1C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>292F1045A7C5D3986A5BA6C5D8F6DB2F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>511383219B2BABB5BFF2900089D20BD9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>53092B978CC959987C2733A7C5E72681</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6F455E945E0FFB4141DBDEB29A798244</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

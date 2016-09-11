@@ -1,0 +1,29 @@
+PODS:
+  - EncryptedCoreData (3.1):
+    - SQLCipher (~> 3.4.0)
+  - SQLCipher (3.4.0):
+    - SQLCipher/standard (= 3.4.0)
+  - SQLCipher/common (3.4.0)
+  - SQLCipher/standard (3.4.0):
+    - SQLCipher/common
+
+DEPENDENCIES:
+  - EncryptedCoreData (from `https://github.com/ankitthakur/encrypted-core-data`, commit `02eb4a645256a3bd1a08fc0ba7c0cfcd41600c85`)
+
+EXTERNAL SOURCES:
+  EncryptedCoreData:
+    :commit: 02eb4a645256a3bd1a08fc0ba7c0cfcd41600c85
+    :git: https://github.com/ankitthakur/encrypted-core-data
+
+CHECKOUT OPTIONS:
+  EncryptedCoreData:
+    :commit: 02eb4a645256a3bd1a08fc0ba7c0cfcd41600c85
+    :git: https://github.com/ankitthakur/encrypted-core-data
+
+SPEC CHECKSUMS:
+  EncryptedCoreData: f6762fb05f88a52f36c5648659abc91b57f244b4
+  SQLCipher: 4c768761421736a247ed6cf412d9045615d53dff
+
+PODFILE CHECKSUM: 088cddf54f76b4801139446f8928558aa292f7f0
+
+COCOAPODS: 1.0.1
