@@ -2,12 +2,11 @@
 CLLocation based events and reverse geocoding
 
 ```swift
-
+// getting event at particular minimum interval, which is set in LocationManager.swift class `minimumTriggerDuration`
 LocationManager.sharedInstance.listeningEvent { (location: Location?, error: LocationError?, event:EventType?) -> (Void) in
-            logger("\(location?.json) : \(error) : \(event?.string)")
-        }
+    logger("\(location?.json) : \(error) : \(event?.string)")
+}
         
-
 LocationManager.sharedInstance.getLocation(.userTrigger)
 ```
 
@@ -33,8 +32,6 @@ private func application(_ application: UIApplication, didFinishLaunchingWithOpt
        woken as frequently as the system desires
        */
       application.setMinimumBackgroundFetchInterval(UIApplicationBackgroundFetchIntervalMinimum)
-      
-      
       
       logger(launchOptions);
       
